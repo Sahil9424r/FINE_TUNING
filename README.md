@@ -10,31 +10,31 @@ The code is contained within the `FINE_TUNIN_BYME.ipynb` notebook.
 
 ## 📖 Table of Contents
 
-* Key Concepts Explained
-    * Model: `google/mt5-small`
-    * Dataset: `cfilt/iitb-english-hindi`
-    * Technique 1: Full Fine-Tuning
-    * Technique 2: LoRA
-    * Technique 3: QLoRA
-* Technology Stack
-* Setup & Installation
-    * 1. Install Dependencies
-    * 2. Hugging Face Authentication
-* Data Preprocessing (Common Steps)
-    * 1. Load Dataset
-    * 2. Format for Seq2Seq
-    * 3. Tokenize Data
-* Experiment 1: Full Fine-Tuning
-    * Code
-    * Results
-* Experiment 2: LoRA (PEFT)
-    * Code
-    * Trainable Parameters
-* Experiment 3: QLoRA (Quantization + PEFT)
-    * Code
-    * Optimizer Note
-* How to Train on a Custom CSV
-* Inference: How to Use the Model
+* [Key Concepts Explained](#-key-concepts-explained)
+    * [Model: `google/mt5-small`](#model-googlemt5-small)
+    * [Dataset: `cfilt/iitb-english-hindi`](#dataset-cfiltiitb-english-hindi)
+    * [Technique 1: Full Fine-Tuning](#technique-1-full-fine-tuning)
+    * [Technique 2: LoRA](#technique-2-lora)
+    * [Technique 3: QLoRA](#technique-3-qlora)
+* [Technology Stack](#️-technology-stack)
+* [Setup & Installation](#-setup--installation)
+    * [1. Install Dependencies](#1-install-dependencies)
+    * [2. Hugging Face Authentication](#2-hugging-face-authentication)
+* [Data Preprocessing (Common Steps)](#️-data-preprocessing-common-steps)
+    * [1. Load Dataset](#1-load-dataset)
+    * [2. Format for Seq2Seq](#2-format-for-seq2seq)
+    * [3. Tokenize Data](#3-tokenize-data)
+* [Experiment 1: Full Fine-Tuning](#-experiment-1-full-fine-tuning)
+    * [Code](#code)
+    * [Results](#results)
+* [Experiment 2: LoRA (PEFT)](#-experiment-2-lora-peft)
+    * [Code](#code-1)
+    * [Trainable Parameters](#trainable-parameters)
+* [Experiment 3: QLoRA (Quantization + PEFT)](#-experiment-3-qlora-quantization--peft)
+    * [Code](#code-2)
+    * [Optimizer Note](#optimizer-note)
+* [How to Train on a Custom CSV](#-how-to-train-on-a-custom-csv)
+* [Inference: How to Use the Model](#-inference-how-to-use-the-model)
 
 ---
 
